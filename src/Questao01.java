@@ -15,7 +15,8 @@ public class Questao01 {
         valorInicial = entrada.nextInt();
         temp = valorInicial;
 
-
+        // Reescreva a resposta, mas agora, utilizando
+        // o comando while!!
         for (int contador = 0; contador < 100; contador++) {
             temp = temp + 1;
             System.out.println(contador + 1 + "°=>" + temp);
