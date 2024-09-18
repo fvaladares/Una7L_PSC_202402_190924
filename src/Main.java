@@ -7,5 +7,8 @@ public class Main {
         resolucao01.imprimirFor();
 
         resolucao01.imprimeTudo();
+
+        Questao01 q1 = new Questao01();
+        q1.resolverQuestao1();
     }
 }
